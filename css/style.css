@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+/*navbar start */
+.nav_mr{
+  margin-left: auto!important;
+}
+.nav_style {
+  background: transparent;
+  z-index: 1000 !important;
+  position: relative;
+}
+.navbar-brand{
+  width: 78px;
+  height: 79px;
+}
+.navbar-nav li a{
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  letter-spacing: 1px;
+  margin-left: 15px;
+  transition: all 0.3s linear;
+}
+.navbar-nav li a:hover{
+  color: #ffc178!important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #ffc178!important;
+}
+.navbar-nav li a::before{
+  content: '';
+    position: absolute;
+    top: 73%;
+    bottom: 50%;
+    right: 0;
+    left: 8%;
+    width: 0%;
+    height: 4%;
+    background: #ffc178;
+    transition: all 0.3s linear;
+}
+.navbar-nav li a:hover::before{
+  width: 80%;
+}
+
+
+.navbar-nav button{
+  margin-left: 15px;
+}
+.btn_top {
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 60px 10px #ddd;
+  padding: 10px 15px;
+  color: #ffc178;
+}
+/*navbar end */
+
+/*  header section start */
+.header_section {
+  background-image: url(../img/Slider.png);
+  background-size: 100% 100%;
+  height: 900px;
+  position: relative;
+  top: -94px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.btn_header {
+  background: #ffc178;
+  border-radius: 25px;
+  color: #fff !important;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+.heder_text {
+  color: #ffc178;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+.all_header_text{
+  margin-top: 20%;
+}
+/*  header section end */
+
+/* section2 start */
+
+.department_section{
+  margin-top: -100px;
+  height: 600px;
+}
+
+.main_titel{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.main_titel h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.card1 {
+  background: #f9703a;
+  position: relative;
+  top: -27px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+  z-index: 1;
+}
+.card1_img{
+  z-index: 1;
+}
+.card2 {
+  background: #80be41;
+  position: relative;
+  top: -27px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+}
+.card3 {
+  background: #ffb258;
+  position: relative;
+  top: -27px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+  z-index: 1;
+}
+.card_color_text{
+  text-align: center;
+  color: #fff;
+}
+.card{
+  border: none !important;
+}
+/*  section2 end */
+
+/*  section3 start */
+.limitless_section{
+  background-image: url('../img/bg shape.png');
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  height: 870px;
+  position: relative;
+  top: -190px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: left;
+}
+.first_img{
+  background-image: url('../img/Group 10.png');
+  background-size: 41% 100%;
+  background-repeat: no-repeat;
+  height: 370px;
+}
+.section3_div{
+  margin-top: 20%;
+}
+
+.second_img{
+  padding-left: 107px;
+}
+.second_img img {
+  border: 8px solid #fff;
+  border-radius: 85%;
+  box-shadow: 0px 0px 0px 15px #fdf6ee;
+  margin-left: 20px;
+  position: relative;
+  left: -15px;
+}
+
+  .second_img i {
+    font-size: 60px;
+    color: #ffc178;
+    position: absolute;
+    top: 458px;
+    z-index: 1000;
+    left: 452px;
+}
+.s1{
+  color: #ffba00;
+  font-weight: 600;
+}
+.s2{
+  color: #ff5f72;
+font-weight: 600;
+}
+.s3{
+  color: #43cb83;
+  font-weight: 600;
+}
+.section3_div2 h2{
+  font-weight: 600;
+}
+/*  section3 end */
+
+/*  section4 start */
+
+.university_section {
+  background-image: url(../img/BG.png);
+  background-size: 25% 100%;
+  background-repeat: no-repeat;
+  height: 870px;
+  background-position: right;
+  position: relative;
+  top: -235px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main_titel2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.main_titel2 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.card_section4 {
+  box-shadow: 0px 38px 50px 10px #e9e9e9;
+}
+.row1_section4{
+  padding-bottom: 60px;
+}
+.card_h5_text {
+transition: all 0.3s ;
+}
+.card_h5_text:hover {
+  color: #ffc178;
+}
+
+
+/*  section4 end */
+
+/*  section5 start */
+.section5{
+  
+background: #252c3a;
+  
+height: 400px;
+}
+.hr_color{
+  background-color: #999999;
+}
+.section_5_container{
+  padding-top: 70px;
+}
+.navbar_icon {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.navbar_icon li {
+  list-style: none;
+  padding-left: 22px;
+}
+.navbar_icon li i{
+font-size: 25px;
+color: #4a4a4a;
+transition: all 0.3s;
+}
+.navbar_icon li i:hover{
+color: #ffc178;
+}
+.section_5_main_text{
+  color: #fff;
+  text-transform: uppercase;
+}
+.section_5_text li p, .logo_text {
+font-size: 14px;
+color: #ddd;
+}
+.input_color{
+  background: #ffc178;
+}
+/*  section5 end */
+
+/*//footer start//*/
+footer{
+  width: 100%;
+  height: 55px;
+  background: #1d232e;
+  color: #4a4a4a;
+}
+
+.footer_text p{
+padding-top: 16px;
+}
+
+/*//footer end//*/
+
+
+@media (max-width:998px) {
+  .nav_style {
+    background: #fff9f3;
+    
+  }
+  .navbar-light .navbar-toggler{
+    outline: none !important;
+  }
+  .navbar-nav{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .navbar-nav li a:hover::before{
+    width:0%;
+  }
+  .all_header_text {
+    margin-top: 55%;
+}
+.header_section {
+  background-image: url(../img/Slider.png);
+  background-size: 100%;
+  height: 540px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-color: #fff9f3;
+}
+
+.department_section {
+  margin-top: 40px;
+  
+}
+
+.limitless_section {
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  height: 361px;
+  position: relative;
+  top: 720px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.second_img img {
+  width: 245px;
+}
+.second_img {
+  padding-left: 0px;
+}
+.first_img {
+  height: 245px;
+}
+.section3_div2 {
+  position: relative;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.second_img i {
+  font-size: 40px;
+  color: #ffc178;
+  position: absolute;
+  top: 167px;
+  z-index: 1000;
+  left: 138px;
+}
+.university_section {
+  position: relative;
+  top: 1435px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main_card_section4 {
+  padding-bottom: 50px;
+}
+
+.section5 {
+  background: #252c3a;
+  height: 1110px;
+  position: relative;
+  top: 4550px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.section_5_main_text {
+  text-align: center;
+  margin-top: 30px;
+}
+.section_5_text{
+  margin-top: -32px !important;
+}
+
+footer {
+  width: 100%;
+  height: 144px;
+  background: #1d232e;
+  color: #4a4a4a;
+  position: relative;
+  top: 4549px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+}
